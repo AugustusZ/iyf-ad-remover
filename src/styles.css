@@ -1,0 +1,42 @@
+/** ad heads-up counting down */
+.caption.show,
+
+/* every-45min pausing ad on video */
+.publicbox.ng-star-inserted,
+
+/* ad below video player */
+app-gg-block.d-block.gg-bg-cover,
+
+/* ad right to the video */
+.player-side.player-right,
+
+/* ad when pasued by user */
+.vg-overlay-pause.ng-star-inserted,
+
+/* button options below video */
+app-video-user-data-bar,
+
+/* pause icon on video */
+.overlay-play-container {
+    display: none !important;
+}
+
+.better-iyf-banner-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #ffd000;
+    color: black;
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+}
+
+.better-iyf-banner-message a {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}

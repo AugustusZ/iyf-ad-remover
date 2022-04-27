@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "无碍壹帆 A Better IYF",
+    "short_name": "BetterIYF",
+    "description": "在 iyf.tv 流畅观影无广告，配合 Adblock Plus 使用效果更加～",
+    "version": "1.0",
+    "icons": {
+        "128": "icon-128.png",
+        "48": "icon-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.iyf.tv/play?*"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content-script.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
